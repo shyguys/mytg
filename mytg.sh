@@ -29,7 +29,7 @@ SCRIPT_NAME="$(basename ${0%.*})"
 display_tg_clear_usage() {
   cat << EOL
 Usage: ${SCRIPT_NAME} clear [DIRECTORIES...] [OPTION...]
-Recursively deletes all Terragrunt cache files. If no directory is
+Recursively delete all Terragrunt cache files. If no directory is
 provided, the current directory will be used as starting location.
 
 Options:
